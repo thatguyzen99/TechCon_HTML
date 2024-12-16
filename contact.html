@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="styles.css"> <!-- Optional CSS file for styling -->
 </head>
 <body>
-    <!-- Header Section -->
+    
     <header>
         <h1>Contact Us</h1>
         <nav>
@@ -22,24 +22,17 @@
         </nav>
     </header>
 
-    <!-- Main Content Section -->
-    <main>
+      <main>
         <h2>Get in Touch</h2>
-
-        <!-- Contact Information -->
-        <section>
             <h3>Contact Details</h3>
-            <a href="mailto:email@example.com"> send email</a>
+            <a href="mailto:email@example.com">Send email</a>
             <p>Follow us on social media:</p>
             <ul>
                 <li><a href="https://twitter.com/techcon2024" target="_blank">Twitter</a></li>
                 <li><a href="https://facebook.com/techcon2024" target="_blank">Facebook</a></li>
                 <li><a href="https://linkedin.com/company/techcon2024" target="_blank">LinkedIn</a></li>
             </ul>
-        </section>
-
-        <!-- Embedded Google Map -->
-        <section>
+        
             <h3>Conference Location</h3>
             <iframe 
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509427!2d144.95373531562088!3d-37.817209742021275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf57783eddef8ab0!2sMelbourne%20Convention%20and%20Exhibition%20Centre!5e0!3m2!1sen!2sau!4v1646793270365!5m2!1sen!2sau" 
@@ -49,34 +42,29 @@
                 allowfullscreen="" 
                 loading="lazy" 
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </section>
-
-        <!-- Contact Us Form -->
-        <section>
+  
             <h3>Send Us a Message</h3>
             <form action="submit_contact.php" method="POST">
-                <!-- Name Field -->
+               
                 <label for="name">Your Name:</label>
                 <input type="text" id="name" name="name" placeholder="Enter your name" required>
                 <br>
 
-                <!-- Email Field -->
+        
                 <label for="email">Your Email:</label>
                 <input type="email" id="email" name="email" placeholder="Enter your email" required>
                 <br>
 
-                <!-- Message Field -->
+                
                 <label for="message">Your Message:</label>
                 <textarea id="message" name="message" rows="5" placeholder="Write your message here" required></textarea>
                 <br>
 
-                <!-- Submit Button -->
+                
                 <button type="submit">Send Message</button>
             </form>
-        </section>
     </main>
 
-    <!-- Footer Section -->
     <footer>
         <p>&copy; 2024 TechCon Team. All rights reserved.</p>
     </footer>
